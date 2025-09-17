@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+#meu-botao {
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    animation-name: exampleAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes exampleAnimation {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: gray;
+    }
+    
+}
